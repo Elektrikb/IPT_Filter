@@ -15,6 +15,8 @@
 Выполнение .../books?limit=2&sort=title&order=desc
 ![image](https://github.com/user-attachments/assets/59ccb5e4-7ef5-4f7e-b420-f5220cff8926)
 
+Выполнение .../books?title=1984
+![image](https://github.com/user-attachments/assets/7ed16c0e-b75c-42b3-95d2-12e504d40283)
 
 ``` go
 
