@@ -289,7 +289,7 @@ func getBooks(c *gin.Context) {
 
 	// Применяем фильтры
 	if title != "" {
-		query = query.Where("name ILIKE ?", "%"+title+"%")
+		query = query.Where("title ILIKE ?", "%"+title+"%")
 	}
 
 	query.Count(&total)
